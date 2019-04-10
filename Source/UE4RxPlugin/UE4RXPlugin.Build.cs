@@ -1,10 +1,10 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright 2019 Aleksandr Rybalka. All Rights Reserved.
 
 using UnrealBuildTool;
 
-public class RxBPPlugin : ModuleRules
+public class UE4RxPlugin : ModuleRules
 {
-	public RxBP(ReadOnlyTargetRules Target) : base(Target)
+	public UE4RxPlugin(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		
@@ -17,8 +17,8 @@ public class RxBPPlugin : ModuleRules
 		
 		PrivateIncludePaths.AddRange(
 			new string[] {
-				// "ThirdParty/RxCPP"
-			}
+              
+            }
 			);
 			
 		
@@ -26,7 +26,7 @@ public class RxBPPlugin : ModuleRules
 			new string[]
 			{
 				"Core",
-                "CoreUObject",
+		        "CoreUObject",
 				"Projects"
 				// ... add other public dependencies that you statically link with here ...
 			}

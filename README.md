@@ -1,6 +1,6 @@
 Overview
 ========
-
+This plugin provides UE4 implementation of ReactiveX library (http://reactivex.io/)
 
 Legal info
 ----------

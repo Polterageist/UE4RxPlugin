@@ -4,7 +4,7 @@
 
 #include "Modules/ModuleManager.h"
 
-class FRxBPPluginModule : public IModuleInterface
+class FUE4RxPluginModule : public IModuleInterface
 {
 public:
 

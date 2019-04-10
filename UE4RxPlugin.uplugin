@@ -2,7 +2,7 @@
 	"FileVersion": 3,
 	"Version": 1,
 	"VersionName": "0.1",
-	"FriendlyName": "RxBP",
+	"FriendlyName": "RxBP Plugin",
 	"Description": "This plugin is UE4 adapter for RxCPP library, which provides reactive programming paradigm",
 	"Category": "Blueprints",
 	"CreatedBy": "Aleksandr Rybalka",
@@ -15,7 +15,7 @@
 	"Installed": false,
 	"Modules": [
 		{
-			"Name": "RxBP",
+			"Name": "UE4RxPlugin",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
